@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity"
+    android:background="@drawable/backgroundphoto"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/firstImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_launcher_foreground"
+        />
+    <TextView
+        android:id="@+id/firstText"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Hello, you're in Main"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="button 1"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        android:backgroundTint="#4E5EB8"
+        android:onClick="transitionToSecondActivity"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="button 2"
+        android:onClick="transitionToG_mail"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#FF4E5EB8"
+        />
+
+</LinearLayout>
+
