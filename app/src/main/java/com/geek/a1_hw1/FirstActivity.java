@@ -14,7 +14,7 @@ public class FirstActivity extends AppCompatActivity {
     ImageView imageView;
     TextView textView;
     String uriImage ;
-    String textFromSecondActivity;
+    String textFromSecondActivity = " Hey , I'm from app A1-Hw1";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
