@@ -48,7 +48,7 @@ public class FirstActivity extends AppCompatActivity {
         Intent send = new Intent(Intent.ACTION_SENDTO);
         String uriText = "mailto:" + Uri.encode("miraidajaanbaeva@gmail.com") +
                 "?subject=" + Uri.encode("G-mail Intent") +
-                "&body=" + Uri.encode("Hey, I'm from A1-HW1 app");
+                "&body=" + Uri.encode(textFromSecondActivity);
         Uri uri = Uri.parse(uriText);
 
         send.setData(uri);
